@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="testScenarios.testNG.Listenersnew" />
+	</listeners>
+	<test name="AWSP_Send">
+		<classes>
+<!--		<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>-->
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_France_LoyaltyEnrollment"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_France_LoyaltyEnrollment_20percent"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_France_LoyaltyEnrollment_40percent"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_Germany_LoyaltyEnrollment"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_Germany_LoyaltyEnrollment_20percent"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_Germany_LoyaltyEnrollment_40percent"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_Italy_LoyaltyEnrollment"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_Italy_LoyaltyEnrollment_20percent"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_Italy_LoyaltyEnrollment_40percent"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_Spain_LoyaltyEnrollment"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_Spain_LoyaltyEnrollment_20percent"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_Spain_LoyaltyEnrollment_40percent"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_USA_LoyaltyEnrollment"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_USA_LoyaltyEnrollment_20percent"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_USA_LoyaltyEnrollment_40percent"/>
+
+
+			<!--<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>-->
+
+
+
+		</classes>
+	</test>
+</suite>

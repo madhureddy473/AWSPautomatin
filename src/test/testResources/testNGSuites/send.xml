@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="Send">
+		<classes>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.DisableReceiveMoneyFeeTypeUSToETH"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.Exis_Cus_SEN_US_US_AccDep_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.Exis_Cus_SEN_US_US_AccDep_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.Exis_Customer_Send_US_To_Italy_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.ExisCus_SEN_HomeDlvr_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.ExisCus_SEN_HomeDlvr_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.ExisCus_SEN_US_CHN_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.ExisCus_SEN_US_CHN_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.ExisCus_SEN_US_PHL_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.ExisCus_SEN_US_PHL_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.New_Customer_Send_US_To_Italy_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.Send_Higher_Than_AgentLimit"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.Update_Text_And_Fix_IFSC_Code_Finder_For_Bangladesh_AD_Service"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USExisCus10MinSEN_ExisRecvr_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USExisCus10MinSEN_ExisRecvr_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USExisCus10MinSEN_NewRecvr_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USExisCus10MinSEN_NewRecvr_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USExisPlusCus10MinSEN_ExisRecvr_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USExisPlusCus10MinSEN_ExisRecvr_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USExisPlusCus10MinSEN_NewRecvr_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USExisPlusCus10MinSEN_NewRecvr_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USNewCusNewRcvr10Min_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USNewCusNewRcvr10Min_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USNewPlusCusNewRcvr10Min_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USNewPlusCusNewRcvr10Min_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.USToIndia_AD_NewCustomer_NewRcvr_NoID"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_GermanyAgent"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.Send_Transaction_Germany_AlienId_expiration_Date_Validation"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_GermanyAgent"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.User_Limit_While_Creating_A_Teller"/>
+		</classes>
+	</test>
+</suite>

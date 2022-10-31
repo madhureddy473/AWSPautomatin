@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="testScenarios.testNG.Listenersnew" />
+	</listeners>
+	<test name="AWSP_Send">
+		<classes>
+<!--		<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>-->
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_ID_verification_existing_additionalinfo"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_ID_verification_existing_receiverinfo"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_ID_verification_existing_senderinfo"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_ID_verification_existing_senderinformation"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_ID_verificationForExisting"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_plusnumber_ExistingCustomer_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_plusnumber_ExistingCustomer_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_Receivemoney_IndicativeCountry"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_specialchars_AddressField"/>
+
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_Transaction_Singlepage_ExistingCustomer"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_Transaction_Singlepage_ExistingCustomer_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_Transaction_Singlepage_ExistingCustomer_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_US_CHN_ExistingCustomer_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_US_CHN_ExistingCustomer_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_US_PHL_ExistingCustomer_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_US_PHL_ExistingCustomer_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_US_to_Haiti"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_SingleUsePromocode"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_TaxServices_Haiti_TaxBreakdown"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_TaxServices_Haiti_TaxBreakdown_successmodel"/>
+
+
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_ErrorValidations_AdditionalInfo"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_ErrorValidations_ReceiverInfo"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_ErrorValidations_SenderInfo"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Germany_AlienID"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_HomeDelivery_ReceiverInfoPage"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Italy_EsistingSend"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Italy_newsend"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Italy_restrictedit_Consumer_Attributes"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_Account_Deposit_Bangladesh"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_Account_Deposit_ExistingCustomer_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_Account_Deposit_ExistingCustomer_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_Account_Deposit_India"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_Account_Deposit_India_ReciveAmtgreaterthan50000"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_send_cleanup_ErrorValidations"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_send_ErrorValidations"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_Send_HigherThan_Agent_Limit"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_UK_send_ID1_ID2_verify_scanDisabled"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_UK_send_ID1verify_existing_scanDisabled"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_UK_send_ID1verify_scanDisabled"/>
+
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_US_PHL_NoID_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_US_PHL_NoID_LOW"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_USNewCusExistRcvr10Min_NoID"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_USNewCusexistRcvr10Min_NoID_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_USNewCusNewRcvr10Min_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_USNewCusNewRcvr10Min_NoID_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_USNewPlusCusNewRcvr10Min_NoID_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_USNewPlusCusNewRcvr10Min_NoID_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_USNewPlusCusNewRcvr_HOME_DEL_NoID_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Send.AWSP_USNewPlusCusNewRcvr_HOME_DEL_NoID_Low"/>
+
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_USA_LoyaltyEnrollment"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_USA_LoyaltyEnrollment_20percent"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_Loyalty.AWSP_USA_LoyaltyEnrollment_40percent"/>
+
+
+
+			<!--<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>-->
+
+
+
+		</classes>
+	</test>
+</suite>

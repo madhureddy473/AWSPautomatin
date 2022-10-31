@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="IdScan">
+		<classes>
+			<class name ="test.java.testScenarios.AgentPortal.RegisterDevice_UKIDScan"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.UK_Scan_Disabled_Send" />
+			<class name="test.java.testScenarios.AgentWorks.IDScan.UK_Scan_Disabled_Send_ID1_ID2_Collection"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.UK_Scan_Disabled_Send_IDImage_Verification_For_Existing_Customers"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_UKIDScan"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.US_Scan_Disabled_Send_GBR"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.US_Scan_Disabled_EP"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.US_Scan_Disabled_Send_POL"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.US_Scan_Disabled_Send_BEL"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_UKIDScanEnabled"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.UK_Scan_Enabled_Send"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.UK_Scan_Enabled_Send_IDImage_Verification_For_Existing_Customers"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.UK_Scan_Enabled_Send_ID1_ID2_Collection"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.UK_Scan_Enabled_Receive"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_UKIDScanEnabled"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_ReceiveUKIDScan"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.UK_Scan_Disabled_Receive"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_ReceiveUKIDScan"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_PolandIDScan"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.PO_Scan_Disabled_Send_PESEL_ID2"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.PO_Scan_Disabled_Receive_PESEL_ID2"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_PolandIDScan"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_BelgiumIDScan"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.BE_ScanDisabled_PhotoCopy_Send"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.BE_ScanDisabled_PhotoCopy_Receive"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_BelgiumIDScan"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_CanadaAgent"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.NewOrUpdated_ID_Types_For_Canada"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_CanadaAgent"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_USIDScanEnabled"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.US_Peripheral_Testing_Using_TwainScanner"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.USToUS_ScanEnabled_HomeDelivery"/>
+			<class name="test.java.testScenarios.AgentWorks.IDScan.USToUS_ScanEnabled_Send_AccountDeposit"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_USIDScanEnabled"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>

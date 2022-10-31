@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="4058Error">
+		<classes>
+			<class name ="test.java.testScenarios.AgentPortal.RegisterDevice"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.US_To_BEL_NewCustomer_NewReceiver10Min_ID1"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.US_To_BEL_NewCustomer_NewReceiver_10Min_ID1_ID2"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_BelgiumScanDisabledSend"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.NewCustomer_ScanDisabled_Belgium_ID1"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.NewCustomer_ScanDisabled_Belgium_ID1_ID2"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.ExistCustomer_ScanDisabled_Belgium_ID1"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.ExistCustomer_ScanDisabled_Belgium_ID1_ID2"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.EstExistCustomer_Scan_Disabled_Belgium_ID1"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.EstExistCustomer_Scan_Disabled_Belgium_ID1_ID2"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.EstNewCustomer_ScanDisabled_Belgium_ID1"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.EstNewCustomer_ScanDisabled_Belgium_ID1_ID2"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.NewCustomer_ScanDisabled_Receive_Belgium_ID1"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.NewCustomer_ScanDisabled_Receive_Belgium_ID1_ID2"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.ExistCustomer_ScanDisabled_Receive_Belgium_ID1_ID2"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_BelgiumScanDisabledSend"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_BelgiumScanEnabledSend"/>
+			<class name="test.java.testScenarios.AgentWorks.Error4058.NewCustomer_ScanEnabled_Belgium_ID1"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_BelgiumScanEnabledSend"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="IndicativeCountries">
+		<classes>
+			<class name ="test.java.testScenarios.AgentPortal.RegisterDevice"/>
+			<class name="test.java.testScenarios.AgentWorks.IndicativeCountries.USToHaitiNewCusNewRcvr10Min_NoID" />
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>
+			<class name="test.java.testScenarios.AgentPortal.Register_Haiti_ReceiveDevice"/>
+			<class name="test.java.testScenarios.AgentWorks.IndicativeCountries.USToHaitiNewCusREC_NoID"/>
+			<class name ="test.java.testScenarios.AgentWorks.IndicativeCountries.USToHaitiNewCusRecReversal_NoID"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDeviceHaiti"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>

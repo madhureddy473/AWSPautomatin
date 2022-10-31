@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="Send">
+		<classes>
+			<class name="test.java.testScenarios.AgentWorks.Send.Send_Transaction_Singlepage"/>
+			<class name="test.java.testScenarios.AgentWorks.Send.Send_Transaction_Singlepage_ExistingCustomer"/>
+		</classes>
+	</test>
+</suite>

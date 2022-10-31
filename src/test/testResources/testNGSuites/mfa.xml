@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="MFA">
+		<classes>
+			<class name ="test.java.testScenarios.AgentPortal.RegisterDevice_MFAAgent"/>
+			<class name="test.java.testScenarios.AgentWorks.MFA.SEN_MFA_Enabled_InvalidToken" />
+			<class name="test.java.testScenarios.AgentWorks.MFA.SEN_MFA_Enabled_LessThan44Char"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_MFAAgent"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>

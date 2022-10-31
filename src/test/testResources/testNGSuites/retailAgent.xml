@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="RetailAgent">
+		<classes>
+<!--			<class name ="test.java.testScenarios.AgentPortal.RegisterDevice_RetailAgent"/>-->
+			<class name="test.java.testScenarios.AgentWorks.RetailAgent.Send_Increase_In_PaymentDue_To_MoneyGram_Credit_Limit_RetailAgent" />
+			<class name ="test.java.testScenarios.AgentWorks.RetailAgent.SendReversal_Refund_Decrease_In_Payment_Due_To_MoneyGram_Credit_Limit_RetailAgent"/>
+			<class name ="test.java.testScenarios.AgentPortal.UnregisterDevice_RetailAgent"/>
+			<class name ="test.java.testScenarios.AgentPortal.RegisterDevice_SpainRetailAgent"/>
+			<class name ="test.java.testScenarios.AgentWorks.RetailAgent.Receive_Decrease_In_Payment_Due_To_MoneyGram_Credit_Limit_RetailAgent"/>
+			<class name ="test.java.testScenarios.AgentWorks.RetailAgent.ReceiveReversal_Increase_In_Payment_Due_To_MoneyGram_Credit_Limit_RetailAgent"/>
+			<class name ="test.java.testScenarios.AgentPortal.UnregisterDevice_SpainRetailAgent"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>

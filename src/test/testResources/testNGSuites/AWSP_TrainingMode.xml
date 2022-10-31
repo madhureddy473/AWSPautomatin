@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="testScenarios.testNG.Listenersnew" />
+	</listeners>
+	<test name="AWSP_Send">
+		<classes>
+<!--		<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>-->
+
+			<class name="testScenarios.AW_SinglePage.AWSP_TrainingMode.AWSP_TrainingMode_USNewCusNewRcvr10Min_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_TrainingMode.AWSP_TrainingMode_Watermarrk_AllPages"/>
+			<!--<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>-->
+
+
+
+		</classes>
+	</test>
+</suite>

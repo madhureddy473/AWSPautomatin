@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="Others">
+		<classes>
+			<class name="test.java.testScenarios.AgentWorks.Others.Terms_of_Use" />
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>
+			<class name="test.java.testScenarios.AgentWorks.Others.Update_Profile_Summary_Screen_To_Accommodate_New_Fields_Returned_From_Profile"/>
+			<class name="test.java.testScenarios.AgentWorks.Others.Find_A_Location"/>
+			<class name="test.java.testScenarios.AgentWorks.Others.US_To_TUR_Empty_ServiceOptions_When_Service_Is_Not_Available"/>
+			<class name="test.java.testScenarios.AgentWorks.Others.US_NewCustomer_ThirdPartyPerson_AddressField"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_ItalyAgent"/>
+			<class name="test.java.testScenarios.AgentWorks.Others.Restrict_Editing_Consumer_Attributes_Italy"/>
+			<class name="test.java.testScenarios.AgentWorks.Others.CountrySubDivision_City_Populates_State"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_ItalyAgent"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="testScenarios.testNG.Listenersnew" />
+	</listeners>
+	<test name="AWSP_Send">
+		<classes>
+<!--		<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>-->
+
+			<class name="testScenarios.AW_SinglePage.AWSP_IDScan.AWSP_IDScanDisabled_existingCust_LowAmounts"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_IDScan.AWSP_IDScanDisabled_ExistingCustomer_HighAmounts"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_IDScan.AWSP_IDScanDisabled_NewCust_HighAmounts"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_IDScan.AWSP_IDScanDisabled_newCust_LowAmounts"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_IDScan.AWSP_IDScanEnabled_WithoutProfile_HighAmounts"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_IDScan.AWSP_IDScanEnabled_withoutProfile_LowAmounts"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_IDScan.AWSP_IDScanEnabled_WithProfile_HighAmounts"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_IDScan.AWSP_IDScanEnabled_WithProfile_LowAmounts"/>
+			<!--<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>-->
+
+
+
+		</classes>
+	</test>
+</suite>

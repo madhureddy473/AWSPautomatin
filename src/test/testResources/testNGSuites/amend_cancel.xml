@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="Amend">
+		<classes>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>
+			<class name="test.java.testScenarios.AgentWorks.AmendCancel.Amend_a_Transaction_ID" />
+			<class name="test.java.testScenarios.AgentWorks.AmendCancel.Amend_a_Transaction_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.AmendCancel.Cancel_a_Transaction_ID" />
+			<class name="test.java.testScenarios.AgentWorks.AmendCancel.Cancel_a_Transaction_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.AmendCancel.Amend_Higher_Than_AgentLimit"/>
+			<class name="test.java.testScenarios.AgentWorks.AmendCancel.Cancel_Higher_Than_AgentLimit"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>
+			<class name ="test.java.testScenarios.AgentPortal.RegisterDeviceReceive"/>
+			<class name ="test.java.testScenarios.AgentWorks.AmendCancel.RecRev_ID"/>
+			<class name ="test.java.testScenarios.AgentWorks.AmendCancel.RecRev_NoID"/>
+			<class name ="test.java.testScenarios.AgentWorks.AmendCancel.RecRev_Higher_Than_AgentLimit"/>
+			<class name ="test.java.testScenarios.AgentPortal.UnregisterDeviceRec"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>

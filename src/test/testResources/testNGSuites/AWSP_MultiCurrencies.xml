@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="testScenarios.testNG.Listenersnew" />
+	</listeners>
+	<test name="AWSP_Send">
+		<classes>
+<!--		<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>-->
+
+			<class name="testScenarios.AW_SinglePage.AWSP_MultiCurrencies.AWSP_MultiCurrency_RON_EUR"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_MultiCurrencies.AWSP_MultiCurrency_RON_RON"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_MultiCurrencies.AWSP_MultiCurrency_RON_USD"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_MultiCurrencies.AWSP_MultiCurrency_USD_PHL"/>
+			<!--<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>-->
+
+
+
+		</classes>
+	</test>
+</suite>

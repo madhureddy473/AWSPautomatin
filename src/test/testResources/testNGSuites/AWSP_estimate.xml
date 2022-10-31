@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="testScenarios.testNG.Listenersnew" />
+	</listeners>
+	<test name="AWSP_Send">
+		<classes>
+<!--		<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>-->
+
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewCusNewRcvr10Min_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewCusNewRcvr10Min_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_ExistingCusNewRcvr10Min_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_ExistingCusNewRcvr10Min_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_ExistingCusexistingRcvr10Min_high"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_ExistingCusexistingRcvr10Min_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_ExistingCusexistingRcvr10Min_NoID_low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_ExistingCusNewRcvr10Min_High"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_US_CHN_NewCusNewRcvr10Min_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_US_CHN_NewCusNewRcvr10Min_Low_NoID"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_US_PHL_NewCusNewRcvr10Min_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_US_PHL_NewCusNewRcvr10Min_Low_NoID"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewCusNewRcvr10Min_HomeDelivery_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewCusNewRcvr10Min_HomeDelivery_NoID_low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewCusNewRcvr10MinAccountDeposit_India_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewCusNewRcvr10MinAccountDeposit_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewCusNewRcvr10MinAccountDeposit_NoID_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewplusCusNewRcvr10Min_high"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewplusCusNewRcvr10Min_high_NoID"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewplusCusNewRcvr10Min_Low"/>
+			<class name="testScenarios.AW_SinglePage.AWSP_EFee.AWSP_Efee_USNewplusCusNewRcvr10Min_Low_NoID"/>
+
+			<!--<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>-->
+
+
+
+		</classes>
+	</test>
+</suite>

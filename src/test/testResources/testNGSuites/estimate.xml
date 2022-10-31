@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="Estimate">
+		<classes>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.EFUSToIndia_AD_NewCustomer_NewReceiver_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCus_HomeDlvr_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCus_HomeDlvr_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCus_To_CHN_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCus_To_CHN_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCus_To_PHL_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCus_To_PHL_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCus_US_AccDep_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCus_US_AccDep_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCusExisRcvr10Min_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCusExisRcvr10Min_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCusNewRcvr10Min_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisCusNewRcvr10Min_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisPlusCusExisRcvr10Min_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisPlusCusExisRcvr10Min_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisPlusCusNewRcvr10Min_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFExisPlusCusNewRcvr10Min_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFNewCusNewRcvr10Min_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFNewCusNewRcvr10Min_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFNewPlusCusNewRcvr10Min_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFNewPlusCusNewRcvr10Min_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.Estimate.USEFSend_Higher_Than_AgentLimit"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="Receive">
+		<classes>
+			<class name ="test.java.testScenarios.AgentPortal.RegisterDeviceReceive"/>
+			<class name="test.java.testScenarios.AgentWorks.Receive.USNewCusREC_NoID" />
+			<class name="test.java.testScenarios.AgentWorks.Receive.USNewPlusCusREC_NoID" />
+			<class name="test.java.testScenarios.AgentWorks.Receive.USExisCusREC_NoID" />
+			<class name="test.java.testScenarios.AgentWorks.Receive.USExisPlusCusREC_NoID" />
+			<class name="test.java.testScenarios.AgentWorks.Receive.USNewCusREC_ID" />
+			<class name="test.java.testScenarios.AgentWorks.Receive.USNewPlusCusREC_ID" />
+			<class name="test.java.testScenarios.AgentWorks.Receive.USExisCusREC_ID" />
+			<class name="test.java.testScenarios.AgentWorks.Receive.USExisPlusCusREC_ID" />
+			<class name="test.java.testScenarios.AgentWorks.Receive.Receive_Higher_Than_AgentLimit"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDeviceRec"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>

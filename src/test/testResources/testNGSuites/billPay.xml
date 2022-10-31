@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+	<listeners>
+		<listener class-name="test.java.testScenarios.testNG.Listeners" />
+	</listeners>
+	<test name="BillPay">
+		<classes>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice"/>
+			<class name="test.java.testScenarios.AgentWorks.BillPay.BillPay_Higher_Than_AgentLimit"/>
+			<class name="test.java.testScenarios.AgentWorks.BillPay.USExisCusBPEP_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.BillPay.USExisCusBPEP_NoID"/>
+			<class name="test.java.testScenarios.AgentWorks.BillPay.USNewCusBPEP_ID"/>
+			<class name="test.java.testScenarios.AgentWorks.BillPay.USNewCusBPEP_NoID" />
+			<class name="test.java.testScenarios.AgentWorks.BillPay.USExisCusBPEP_Using_Biller_ID"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice"/>
+			<class name="test.java.testScenarios.AgentPortal.RegisterDevice_CanadaAgent"/>
+			<class name="test.java.testScenarios.AgentWorks.BillPay.Use_Agent_Currency_For_BillPay_Fees"/>
+			<class name="test.java.testScenarios.AgentPortal.UnregisterDevice_CanadaAgent"/>
+			<class name="test.java.testScenarios.AgentPortal.IsDeviceUnregistered"/>
+		</classes>
+	</test>
+</suite>
